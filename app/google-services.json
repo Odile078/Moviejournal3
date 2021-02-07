@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "263780111097",
+    "firebase_url": "https://moviejournal-ff8e4-default-rtdb.firebaseio.com",
+    "project_id": "moviejournal-ff8e4",
+    "storage_bucket": "moviejournal-ff8e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263780111097:android:2ac532d1f656ba0d08c828",
+        "android_client_info": {
+          "package_name": "com.example.moviejournal3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263780111097-iql0k2jg6d19fv9vf75rsqgjb548543o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA540zJeOQrDxUaN7vEU1c8CBkLgDgmwp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263780111097-iql0k2jg6d19fv9vf75rsqgjb548543o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263780111097:android:eb4f4b2227fb3b2608c828",
+        "android_client_info": {
+          "package_name": "com.example.moviejournal4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263780111097-iql0k2jg6d19fv9vf75rsqgjb548543o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA540zJeOQrDxUaN7vEU1c8CBkLgDgmwp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263780111097-iql0k2jg6d19fv9vf75rsqgjb548543o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
