@@ -35,6 +35,10 @@ public class ProfileActivity extends AppCompatActivity {
         TextView welcomeText = (TextView) findViewById(R.id.welcomeText);
         welcomeText.setText("Welcome"+email);
 
+        profileImage = findViewById(R.id.profileImage);
+        changeProfilePic = findViewById(R.id.changeprofilepic);
+        fAuth = FirebaseAuth.getInstance();
+        fStore = FirebaseFirestore.getInstance();
         Button logoutButton= findViewById(R.id.buttonLogout);
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
