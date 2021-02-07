@@ -15,6 +15,8 @@ import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 public class ProfileActivity extends AppCompatActivity {
     private static final int GALLERY_INTENT_CODE =1023;
@@ -25,6 +27,7 @@ public class ProfileActivity extends AppCompatActivity {
     Button changeProfilePic;
     FirebaseUser user;
     ImageView profileImage;
+    StorageReference storageReference;
 
 
     @Override
@@ -42,6 +45,7 @@ public class ProfileActivity extends AppCompatActivity {
         changeProfilePic = findViewById(R.id.changeprofilepic);
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
+        storageReference = FirebaseStorage.getInstance().getReference();
         Button logoutButton= findViewById(R.id.buttonLogout);
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
