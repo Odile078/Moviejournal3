@@ -6,13 +6,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class ProfileActivity extends AppCompatActivity {
+    private static final int GALLERY_INTENT_CODE =1023;
     private FirebaseAuth mAuth;
+    private FirebaseAuth fAuth;
+    FirebaseFirestore fStore;
+    String userId;
+    Button changeProfilePic;
+    FirebaseUser user;
+    ImageView profileImage;
 
 
     @Override
