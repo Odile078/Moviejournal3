@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_movie"
+            android:title="Trending Movies" />
+        <item
+            android:id="@+id/nav_watchlist"
+            android:icon="@drawable/ic_watchlist"
+            android:title="Make Watch list" />
+        <item
+            android:id="@+id/nav_form"
+            android:icon="@drawable/ic_list"
+            android:title="Watch List" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account_box_white_24dp"
+            android:title="Account"
+
+            />
+    </group>
+</menu>

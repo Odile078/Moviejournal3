@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MovieJournal</string>
+    <string name="invalid_name">The movie name field should not be empty</string>
+    <string name="invalid_category">Please fill the movie category</string>
+    <string name="invalid_detail">Please fill the movie detail field</string>
+    <string name="open">open</string>
+    <string name="close">open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_email">Enter Valid Email</string>
+    <string name="week_password">Password should be at least six characters!</string>
+</resources>

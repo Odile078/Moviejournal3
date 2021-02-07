@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/movieposter"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/login_custom"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="50dp"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/white"
+       />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:background="@drawable/login_custom"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingStart="50dp"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:padding="5dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@drawable/search_layout"/>
+
+    <TextView
+        android:id="@+id/registrationLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="285dp"
+        android:text="Do not have an account? register here"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+</RelativeLayout>
