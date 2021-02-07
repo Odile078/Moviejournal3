@@ -52,6 +52,7 @@ public class ProfileActivity extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
+        StorageReference profileRef = storageReference.child("profile.jpg");
         Button logoutButton= findViewById(R.id.buttonLogout);
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +78,7 @@ public class ProfileActivity extends AppCompatActivity {
         if(requestCode == 1000){
             if(resultCode == Activity.RESULT_OK){
                 Uri imageUri = data.getData();
-                profileImage.setImageURI(imageUri);
+               // profileImage.setImageURI(imageUri);
 
                 uploadImageToFirebase(imageUri);
             }
