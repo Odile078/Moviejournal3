@@ -8,46 +8,67 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="400dp"
+        android:layout_width="200dp"
         android:layout_height="250dp"
-        android:src="@drawable/moviewacther" />
+        android:src="@drawable/moviewacther"
+        android:layout_marginLeft="20dp"/>
     <!--android:contentDescription="@string/nav_header_desc"
     android:paddingTop="@dimen/nav_header_vertical_spacing"-->
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="31dp"
         android:fontFamily="@font/allan"
         android:gravity="center_horizontal"
-        android:text="Plan your movie nights, time and breaks. It's easy make your list and plan here for easy managing and remembering."
+        android:text="Plan your movie nights, time and breaks. "
         android:textColor="@android:color/black"
-        android:textSize="17sp"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="194dp" />
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="59dp"
+        android:fontFamily="@font/allan"
+        android:gravity="center_horizontal"
+        android:text=" It's easy make your list and plan here for easy managing and remembering."
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="360dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="319dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="138dp"
         android:fontFamily="cursive"
-        android:gravity="center_horizontal"
         android:text="Click below to add a new movie to your list."
-        android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="194dp" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/toListFormButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="25dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="260dp"
         android:background="@drawable/custom_button"
         android:text="Make Watchlist"
         android:textColor="@color/back"
@@ -59,28 +80,27 @@
     <Button
         android:id="@+id/ListmoviesButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="650dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="500dp"
         android:background="@drawable/custom_button"
         android:shadowColor="#592323"
         android:text="Trending"
         android:textColor="@color/back"
         tools:layout_editor_absoluteX="164dp"
         tools:layout_editor_absoluteY="578dp" />
+
     <Button
         android:id="@+id/moviesButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="225dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="220dp"
         android:background="@drawable/custom_button"
         android:text="Trending"
         android:textColor="@color/back"
         tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="578dp"
-        />
-
+        tools:layout_editor_absoluteY="578dp" />
 
 
 </RelativeLayout>
