@@ -24,7 +24,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="314dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="51dp"
         android:fontFamily="@font/allan"
         android:gravity="center_horizontal"
         android:text="Plan your movie nights, time and breaks. "
@@ -39,7 +39,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="274dp"
-        android:layout_marginTop="79dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="59dp"
         android:fontFamily="@font/allan"
         android:gravity="center_horizontal"
@@ -48,7 +48,7 @@
         android:textSize="17sp" />
 
 
-    <TextView
+   <!-- <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,14 +61,14 @@
         android:fontFamily="cursive"
         android:text="Click below to add a new movie to your list."
         android:textColor="@color/cardview_dark_background"
-        android:textSize="18sp" />
+        android:textSize="18sp" />-->
 
     <Button
         android:id="@+id/toListFormButton"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginLeft="260dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
         android:background="@drawable/custom_button"
         android:text="Make Watchlist"
         android:textColor="@color/back"
@@ -81,7 +81,7 @@
         android:id="@+id/ListmoviesButton"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginLeft="450dp"
+        android:layout_marginLeft="250dp"
         android:layout_marginTop="500dp"
         android:background="@drawable/custom_button"
         android:shadowColor="#592323"
@@ -94,8 +94,8 @@
         android:id="@+id/moviesButton"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginLeft="450dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/custom_button"
         android:text="Trending"
         android:textColor="@color/back"

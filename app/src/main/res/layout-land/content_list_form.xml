@@ -62,14 +62,16 @@
 
             <Button
                 android:text="Submit"
-                android:layout_width="match_parent"
+                android:layout_width="500dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:id="@+id/submitButton"
                 android:background="@drawable/search_layout"/>
 
             <Button
                 android:id="@+id/ListButton"
-                android:layout_width="match_parent"
+                android:layout_width="500dp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/search_layout"
