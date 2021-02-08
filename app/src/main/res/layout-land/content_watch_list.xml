@@ -17,10 +17,11 @@
            >
            <ImageView
                android:id="@+id/imageView"
-               android:layout_width="190dp"
+               android:layout_width="170dp"
                android:layout_height="200dp"
                android:layout_alignParentTop="true"
                android:layout_alignParentEnd="true"
+               android:layout_marginLeft="10dp"
                android:src="@drawable/logo2" />
            <androidx.appcompat.widget.SearchView
                android:id="@+id/searchView"
@@ -35,8 +36,11 @@
                android:layout_height="wrap_content"
                android:layout_alignParentTop="true"
                android:layout_centerHorizontal="true"
+               android:layout_marginLeft="30dp"
                android:text="My Watch List"
-               android:textSize="20dp" />
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"/>
 
        </LinearLayout>
         <RelativeLayout
